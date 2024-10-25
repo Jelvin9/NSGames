@@ -1,0 +1,133 @@
+[
+    {
+        "name":"Luigi's Mansion™ 2 HD",
+        "release-date":"27/06/2024",
+        "genre":["Action","Adventure"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1",
+        "multiplayer":[true,"1-4"],
+        "esrb-rating":"E",
+        "weeklyrate":20.00,
+        "image":"img/luigi.jfif"
+    },
+
+    {
+        "name":"The Legend of Zelda™: Tears of the Kingdom",
+        "release-date":"12/05/2023",
+        "genre":["Adventure","Action","Role-Playing"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1",
+        "multiplayer":[false,""],
+        "esrb-rating":"10+",
+        "weeklyrate":20.00,
+        "image":"img/the legend of zelda.jfif"
+    },
+
+    {
+        "name":"Pokémon™ Scarlet and Pokémon™ Violet Double Pack",
+        "release-date":"18/11/2022",
+        "genre":["Adventure","Role-Playing"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1",
+        "multiplayer":[true,"2-4"],
+        "esrb-rating":"E",
+        "weeklyrate":20.00,
+        "image":"img/pokemon.jfif"
+    },
+
+    {
+        "name":"Kirby and the Forgotten Land",
+        "release-date":"25/03/2022",
+        "genre":["Action","Platformer"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1-2",
+        "multiplayer":[false,""],
+        "esrb-rating":"10+",
+        "weeklyrate":20.00,
+        "image":"img/kirby.jfif"
+    },
+
+    {
+        "name":"Animal Crossing™: New Horizons",
+        "release-date":"20/03/2020",
+        "genre":["Simulation"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1-4",
+        "multiplayer":[true,"1-8"],
+        "esrb-rating":"E",
+        "weeklyrate":20.00,
+        "image":"img/animal crossing.jfif"
+    },
+
+    {
+        "name":"Ring Fit Adventure",
+        "release-date":"17/01/2020",
+        "genre":["Sports","Practical","Training"],
+        "playmode":["TV","Tabletop"],
+        "players":"1",
+        "multiplayer":[false,""],
+        "esrb-rating":"10+",
+        "weeklyrate":20.00,
+        "image":"img/ring fit.jfif"
+    },
+
+    {
+        "name":"Super Smash Bros.™ Ultimate",
+        "release-date":"17/01/2020",
+        "genre":["Action","Fighting","Multiplayer"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1-8",
+        "multiplayer":[true,"2-8"],
+        "esrb-rating":"10+",
+        "weeklyrate":20.00,
+        "image":"img/super smash.jfif"
+    },
+
+    {
+        "name":"Everybody 1-2-Switch!™",
+        "release-date":"30/06/2023",
+        "genre":["Party"],
+        "playmode":["TV","Tabletop"],
+        "players":"2-8",
+        "multiplayer":[true,"2-8 joy-con","2-100"],
+        "esrb-rating":"E",
+        "weeklyrate":20.00,
+        "image":"img/1-2 switch.jfif"
+    },
+
+    {
+        "name":"Super Mario Odyssey™",
+        "release-date":"17/01/2020",
+        "genre":["Action","Platformer"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1-2",
+        "multiplayer":[true,"2"],
+        "esrb-rating":"10+",
+        "weeklyrate":20.00,
+        "image":"img/mario odyssey.jfif"
+    },
+
+    {
+        "name":"Paper Mario™: The Thousand-Year Door",
+        "release-date":"23/05/2024",
+        "genre":["Role-Playing","Adventure"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1",
+        "multiplayer":[false,""],
+        "esrb-rating":"E",
+        "weeklyrate":20.00,
+        "image":"img/paper mario.jfif"
+    },
+
+    {
+        "name":"Hogwarts Legacy",
+        "release-date":"14/11/2023",
+        "genre":["Role-playing"],
+        "playmode":["TV","Tabletop","Handheld"],
+        "players":"1",
+        "multiplayer":[false,""],
+        "esrb-rating":"T",
+        "weeklyrate":20.00,
+        "image":"img/hogwards.jfif"
+    }
+]

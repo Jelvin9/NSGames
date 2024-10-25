@@ -1,0 +1,204 @@
+.top-banner {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding-right: 40px;
+}
+
+.top-banner span {
+    font-size: 24px;
+    margin: 0 12px;
+}
+
+.top-banner i {
+    margin:0 6px;
+}
+
+.nav-bar {
+    background-color:white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #99999988;
+    
+}
+
+.right {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-bar {
+    font-size: 34px;
+    
+    
+}
+
+#offcanvasExample {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+    border-top-right-radius: 24px;
+
+}
+
+#sidebtn {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    color: black;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    border: none
+
+}
+
+#dropdownbtn {
+    width:100%;
+    height: 50px;
+    background-color: inherit;
+    color: #333;
+    border: 2px solid #666;
+}
+
+#sidebar-dropdown1 {
+    width:100%;
+    max-width: none;
+    font-size: 24px;
+}
+
+/* filter bar */
+.filter-bar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;  /* Allow buttons to wrap to the next line */
+    padding: 10px;    /* Add some padding for better spacing */
+}
+
+.filter-bar .btn {
+    margin: 8px;  /* Adjust margins for better spacing */
+    height: auto;
+    font-size: 18px;  /* Reduce font size slightly for better fit */
+    padding: 10px 20px;  /* Adjust padding for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .filter-bar {
+        flex-direction: column;  /* Stack buttons vertically on very small screens */
+        height: auto;  /* Adjust height for better layout */
+    }
+
+    .filter-bar .btn {
+        font-size: 16px;  /* Reduce font size for small screens */
+        width: 100%;  /* Make buttons take full width */
+        margin: 5px 0;  /* Adjust margin for better spacing */
+    }
+}
+
+
+/* game profile */
+#profile-card {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-flow:row wrap;
+    
+    
+}
+
+.custom-card {
+    width: 28rem; /* Adjust the width as needed */
+    margin: 1rem; /* Optional: Add some space between cards */
+}
+
+.card-img-top {
+    width: 100%; /* Ensures the image fills the card's width */
+    height: 250px; /* Sets a fixed height */
+    object-fit: cover; /* Crops the image while maintaining aspect ratio */
+}
+
+.card-body p {
+    font-size: 20px;
+}
+
+/* .card {
+    position: relative; /* Make the card a relatively positioned container */
+/* } */
+
+.card-body {
+    padding-bottom: 60px; /* Add padding to ensure content above the button isn't overlapped */
+    position: relative; /* Allows absolute positioning within this element */
+}
+
+.card-body .rentbtn {
+    position: absolute;
+    bottom: 16px; /* Adjusts the vertical distance from the bottom of the card */
+    width: 92.5%;
+}
+
+.rentbtn {
+ font-size: 24px;
+ background-color: rgb(41, 216, 193);
+ font-weight: 500;
+ transition: all 0.7s ease;
+}
+
+.rentbtn:hover {
+    background-color: forestgreen;
+}
+
+/* shopping cart */
+.right-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.cart-dropdown h4 {
+    margin-bottom: 20px;
+}
+
+.cart-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.cart-items-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    margin-bottom: 20px;
+}
+
+#cart-icon:hover + .cart-dropdown,
+#cart-dropdown:hover {
+    display: block;
+}
